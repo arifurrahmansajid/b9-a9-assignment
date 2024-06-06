@@ -35,9 +35,9 @@ const router = createBrowserRouter([
       {
         path: "/property",
         element: (
-         
+          <PrivetRoutes>
             <EstateProperty></EstateProperty>
-          
+          </PrivetRoutes>
         ),
       },
     ],
