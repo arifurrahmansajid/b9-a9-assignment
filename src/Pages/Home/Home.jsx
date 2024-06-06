@@ -1,7 +1,7 @@
 import "../Home/Home.css"
 import Banner from "../Banner/Banner"
 import Estates from "../Estates/Estates"
-import Ourwork from "../Ourwork/Ourwork"
+
 const Home = () => {
   return (
     <div>
@@ -46,7 +46,7 @@ const Home = () => {
           <button className="rounded">View All Property Listings</button>
         </div>
       </section>
-      <Ourwork></Ourwork>
+    
     </div>
   );
 };
